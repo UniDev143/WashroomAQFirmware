@@ -1,0 +1,20 @@
+# Local secrets
+secrets.h
+
+# Arduino build artifacts
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.eep
+*.o
+*.a
+*.d
+
+# Arduino IDE / editor temp files
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
