@@ -1,9 +1,9 @@
 # ESP32 Odour & Climate Sensor Firmware
 
-This repository contains the firmware for an ESP32-based washroom odour tracking node. It collects data from an MQ-135 air quality sensor and a DHT22 climate sensor, cleans the readings via digital filters, and securely streams telemetry data to HiveMQ Cloud over TLS/SSL MQTT.
+This repository contains the firmware for an ESP-based washroom odour tracking node. It collects data from an MQ-135 air quality sensor and a DHT22 climate sensor, cleans the readings via digital filters, and securely streams telemetry data to HiveMQ Cloud over TLS/SSL MQTT.
 
 ## 🛠️ Hardware Requirements
-- **Microcontroller:** ESP32 (e.g., ESP32 NodeMCU)
+- **Microcontroller:** ESP (e.g., ESP32 NodeMCU)
 - **Air Quality Sensor:** MQ-135 Odour Sensor
 - **Climate Sensor:** DHT22 (AM2302) Temperature & Humidity Sensor
 - **Transistor/Switch:** Connected to Pin 4 to handle sensor power lines (warm-up control)
