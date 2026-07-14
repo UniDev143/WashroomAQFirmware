@@ -3,9 +3,8 @@
 #include <DHT.h>
 #include <PubSubClient.h>
 #include <Preferences.h>
-#include "secrets.h"  // <--- Add this line
+#include "secrets.h"  
 
-// ================= REMOVE OLD HARDCODED VALUES AND USE DEFINE CODES =================
 const char* ssid = WIFI_SSID;
 const char* password = WIFI_PASSWORD;
 const char* mqtt_server = MQTT_SERVER;
@@ -14,7 +13,6 @@ const char* mqtt_user = MQTT_USER;
 const char* mqtt_pass = MQTT_PASS;
 
 // Each physical device MUST have a unique ID -> unique topics + unique NVS namespace.
-// Change this per board when you flash it (or read from a DIP switch / chip ID).
 const char* DEVICE_ID = "sensor1";
 
 String topic_temp;
